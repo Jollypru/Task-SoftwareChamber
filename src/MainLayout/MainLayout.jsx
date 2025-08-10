@@ -1,9 +1,11 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
+import IntroStatsSection from '../components/Intro_Section/IntroStatsSection';
 
 const MainLayout = () => {
     return (
-        <div>
-            <h1>Hello</h1>
+        <div className='bricolage-grotesque-font'>
+            <IntroStatsSection></IntroStatsSection>
         </div>
     );
 };
