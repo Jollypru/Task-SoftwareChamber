@@ -34,7 +34,7 @@ const WhyChooseSection = () => {
             <h2 className='text-6xl text-center '>Why Choose <br /> Softwarechamber</h2>
             <p className='text-center text-gray-600 my-6'>Deliver personalized experiences to your customers with AI-powered <br /> recommendation engines and dynamic content generation.
             </p>
-            <button className='bg-gradient-to-r from-teal-600 to-teal-500 px-3 p-1.5 text-white font-medium rounded-4xl'>Let's Discuss <span className='inline-block align-middle bg-gray-100 text-black rounded-full ml-3 p-2' ><MdArrowOutward /></span></button>
+            <button className='bg-gradient-to-r from-teal-600 to-teal-500 px-3 p-1.5 text-white font-medium rounded-4xl cursor-pointer hover:scale-105'>Let's Discuss <span className='inline-block align-middle bg-gray-100 text-black rounded-full ml-3 p-2' ><MdArrowOutward /></span></button>
 
             <div className='grid grid-cols-4 gap-4 mt-10'>
                 {
